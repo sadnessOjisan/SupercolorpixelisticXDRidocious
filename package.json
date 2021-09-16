@@ -7,5 +7,21 @@
   "license": "MIT",
   "workspaces": [
     "packages/**"
-  ]
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "example": "yarn workspace example",
+    "lib": "yarn workspace weed365",
+    "typecheck": "tsc -p . --noEmit",
+    "lint:fix": "eslint --fix '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
+    "lint": "eslint '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
+    "format:fix": "prettier --write '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
+    "format": "prettier --check '**/src/**/*.{ts,tsx,js,jsx,json,md}'"
+  }
 }
