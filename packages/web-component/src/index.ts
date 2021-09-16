@@ -6,14 +6,15 @@ export class Supercolorpixelisticxdridocious extends HTMLElement {
     this.shadow.innerHTML = `
       <style>
       h1{
-        color: #ACB6E5;//非対応のブラウザでの文字色を設定
-        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);//背景色にグラデーションを指定
-        -webkit-background-clip: text;//テキストでくり抜く
-        -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
+        display: inline;
+        font-size: 5em;
+        background: linear-gradient( to right,  rgba(69,179,224,1) 25%, rgba(102,51,153,1) 75% );
+        -webkit-background-clip: text;
+        color: transparent;
       }
       </style>
       <h1>
-        aaajfeiwofjiewjfioewjfioewjfiojei
+        afwe
       </h1>
     `;
   }
