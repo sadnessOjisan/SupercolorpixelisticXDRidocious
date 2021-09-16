@@ -1,5 +1,7 @@
 # SupercolorpixelisticXDRidocious
 
+SupercolorpixelisticXDRidocious Web Components
+
 ## ✌️ How to use
 
 ```html
@@ -7,7 +9,7 @@
   <supercolorpixelistic-xdridocious
     text="kira kira word"
   ></supercolorpixelistic-xdridocious>
-  <script src="https://cdn.jsdelivr.net/npm/supercolorpixelisticxdridocious@1.0.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/supercolorpixelisticxdridocious"></script>
 </body>
 ```
 

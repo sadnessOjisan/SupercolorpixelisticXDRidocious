@@ -1,5 +1,7 @@
 # SupercolorpixelisticXDRidocious
 
+SupercolorpixelisticXDRidocious Web Components
+
 ![カバー](./imgs/cover.png)
 
 ## ✌️ How to use
@@ -9,7 +11,7 @@
   <supercolorpixelistic-xdridocious
     text="kira kira word"
   ></supercolorpixelistic-xdridocious>
-  <script src="https://cdn.jsdelivr.net/npm/supercolorpixelisticxdridocious@0.0.5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/supercolorpixelisticxdridocious"></script>
 </body>
 ```
 
