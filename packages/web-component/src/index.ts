@@ -2,16 +2,21 @@ export class Supercolorpixelisticxdridocious extends HTMLElement {
   shadow: ShadowRoot;
   constructor() {
     super();
+    const text = this.getAttribute("text");
     this.shadow = this.attachShadow({ mode: "open" });
     this.shadow.innerHTML = `
       <style>
-      .wrapper{
-       color: red;
+      span{
+        display: inline;
+        background:linear-gradient(
+            90deg,#2e4f8b 0%,#3e589d 35%,#8f619b 60%,#d0718f 70%);
+        -webkit-background-clip: text;
+        color: transparent;
       }
       </style>
-      <div class="wrapper">
-        aaa
-      </div>
+      <span>
+        ${text}
+      </span>
     `;
   }
 }
