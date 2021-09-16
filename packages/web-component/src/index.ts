@@ -6,17 +6,18 @@ export class Supercolorpixelisticxdridocious extends HTMLElement {
     this.shadow = this.attachShadow({ mode: "open" });
     this.shadow.innerHTML = `
       <style>
-      h1{
+      span{
         display: inline;
         font-size: 5em;
-        background: linear-gradient( to right,  rgba(69,179,224,1) 25%, rgba(102,51,153,1) 75% );
+        background:linear-gradient(
+            90deg,#2e4f8b 0%,#3e589d 35%,#8f619b 60%,#d0718f 70%);
         -webkit-background-clip: text;
         color: transparent;
       }
       </style>
-      <h1>
+      <span>
         ${text}
-      </h1>
+      </span>
     `;
   }
 }
