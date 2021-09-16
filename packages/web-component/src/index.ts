@@ -2,6 +2,7 @@ export class Supercolorpixelisticxdridocious extends HTMLElement {
   shadow: ShadowRoot;
   constructor() {
     super();
+    const text = this.getAttribute("text");
     this.shadow = this.attachShadow({ mode: "open" });
     this.shadow.innerHTML = `
       <style>
@@ -14,7 +15,7 @@ export class Supercolorpixelisticxdridocious extends HTMLElement {
       }
       </style>
       <h1>
-        afwe
+        ${text}
       </h1>
     `;
   }
