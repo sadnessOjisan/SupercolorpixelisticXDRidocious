@@ -9,7 +9,7 @@
   <supercolorpixelistic-xdridocious
     text="kira kira word"
   ></supercolorpixelistic-xdridocious>
-  <script src="https://cdn.jsdelivr.net/npm/supercolorpixelisticxdridocious@0.0.3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/supercolorpixelisticxdridocious@1.0.0"></script>
 </body>
 ```
 
