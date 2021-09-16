@@ -5,13 +5,16 @@ export class Supercolorpixelisticxdridocious extends HTMLElement {
     this.shadow = this.attachShadow({ mode: "open" });
     this.shadow.innerHTML = `
       <style>
-      .wrapper{
-       color: red;
+      h1{
+        color: #ACB6E5;//非対応のブラウザでの文字色を設定
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);//背景色にグラデーションを指定
+        -webkit-background-clip: text;//テキストでくり抜く
+        -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
       }
       </style>
-      <div class="wrapper">
-        aaa
-      </div>
+      <h1>
+        aaajfeiwofjiewjfioewjfioewjfiojei
+      </h1>
     `;
   }
 }
