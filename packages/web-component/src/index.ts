@@ -1,4 +1,4 @@
-class Supercolorpixelisticxdridocious extends HTMLElement {
+export class Supercolorpixelisticxdridocious extends HTMLElement {
   shadow: ShadowRoot;
   constructor() {
     super();
@@ -17,6 +17,6 @@ class Supercolorpixelisticxdridocious extends HTMLElement {
 }
 
 customElements.define(
-  "supercolorpixelisticxdridocious",
+  "supercolorpixelistic-xdridocious",
   Supercolorpixelisticxdridocious
 );
