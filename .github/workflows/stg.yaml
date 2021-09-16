@@ -18,9 +18,9 @@ jobs:
       - name: typecheck
         run: yarn run typecheck
       - name: lint
-        run: yarn run lint:fix
+        run: yarn run lint:ci
       - name: format
-        run: yarn run format:fix
+        run: yarn run format:ci
       - name: build
         run: yarn run lib run build:prd
       - name: App Deploy
