@@ -1,0 +1,11 @@
+{
+  "name": "SupercolorpixelisticXDRidocious",
+  "private": true,
+  "version": "1.0.0",
+  "repository": "https://github.com/sadnessOjisan/SupercolorpixelisticXDRidocious.git",
+  "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/**"
+  ]
+}
