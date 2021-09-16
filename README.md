@@ -1,13 +1,15 @@
 # SupercolorpixelisticXDRidocious
 
-SupercolorpixelisticXDRidocious
+![カバー](./imgs/cover.png)
 
-## how to use
+## ✌️ How to use
 
 ```html
 <body>
-  <supercolorpixelisticxdridocious></supercolorpixelisticxdridocious>
-  <script src="https://cdn.jsdelivr.net/npm/supercolorpixelisticxdridocious@0.0.3"></script>
+  <supercolorpixelistic-xdridocious
+    text="kira kira word"
+  ></supercolorpixelistic-xdridocious>
+  <script src="https://cdn.jsdelivr.net/npm/supercolorpixelisticxdridocious@1.0.0"></script>
 </body>
 ```
 
@@ -19,7 +21,7 @@ import { Supercolorpixelisticxdridocious } from "supercolorpixelisticxdridocious
 customElements.define("valid-name", Supercolorpixelisticxdridocious);
 ```
 
-## for developer
+## 💽 For developer
 
 setup
 
@@ -34,3 +36,7 @@ yarn run lib build:dev
 
 open packages/debug/index.html
 ```
+
+## 📝 License
+
+Licensed under the MIT License.
