@@ -2,7 +2,7 @@
 
 ![カバー](./imgs/cover.png)
 
-## how to use
+## ✌️ How to use
 
 ```html
 <body>
@@ -21,7 +21,7 @@ import { Supercolorpixelisticxdridocious } from "supercolorpixelisticxdridocious
 customElements.define("valid-name", Supercolorpixelisticxdridocious);
 ```
 
-## for developer
+## 💽 For developer
 
 setup
 
@@ -36,3 +36,7 @@ yarn run lib build:dev
 
 open packages/debug/index.html
 ```
+
+## 📝 License
+
+Licensed under the MIT License.
