@@ -6,7 +6,9 @@
 
 ```html
 <body>
-  <supercolorpixelisticxdridocious></supercolorpixelisticxdridocious>
+  <supercolorpixelisticxdridocious
+    text="kira kira word"
+  ></supercolorpixelisticxdridocious>
   <script src="https://cdn.jsdelivr.net/npm/supercolorpixelisticxdridocious@0.0.3"></script>
 </body>
 ```
