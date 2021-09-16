@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/sadnessOjisan/SupercolorpixelisticXDRidocious.git",
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "NODE_ENV=development vite build",
+    "build:prd": "NODE_ENV=production vite build"
+  }
 }
