@@ -8,5 +8,8 @@
   "scripts": {
     "build:dev": "NODE_ENV=development vite build",
     "build:prd": "NODE_ENV=production vite build"
+  },
+  "devDependencies": {
+    "vite": "^2.5.7"
   }
 }
