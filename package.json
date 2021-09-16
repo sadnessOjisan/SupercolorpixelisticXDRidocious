@@ -1,0 +1,29 @@
+{
+  "name": "SupercolorpixelisticXDRidocious",
+  "private": true,
+  "version": "1.0.0",
+  "repository": "https://github.com/sadnessOjisan/SupercolorpixelisticXDRidocious.git",
+  "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/**"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "can-npm-publish": "^1.3.6",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "example": "yarn workspace example",
+    "lib": "yarn workspace supercolorpixelisticxdridocious",
+    "typecheck": "tsc --noEmit",
+    "lint:fix": "eslint --fix '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
+    "lint:ci": "eslint '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
+    "format:fix": "prettier --write '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
+    "format:ci": "prettier --check '**/src/**/*.{ts,tsx,js,jsx,json,md}'"
+  }
+}
