@@ -19,7 +19,7 @@
   "scripts": {
     "example": "yarn workspace example",
     "lib": "yarn workspace weed365",
-    "typecheck": "tsc -p . --noEmit",
+    "typecheck": "tsc --noEmit",
     "lint:fix": "eslint --fix '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
     "lint": "eslint '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
     "format:fix": "prettier --write '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
