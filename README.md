@@ -1,6 +1,6 @@
 # SupercolorpixelisticXDRidocious
 
-SupercolorpixelisticXDRidocious
+![カバー](./imgs/cover.png)
 
 ## how to use
 
